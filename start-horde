@@ -18,4 +18,6 @@ cp /horde-templates/horde/prefs.local.php /var/www/html/horde/config
 cp /horde-templates/imp/backends.local.php /var/www/html/horde/imp/config
 cp /horde-templates/ingo/backends.local.php /var/www/html/horde/ingo/config
 webmail-migrateDb
+find . -type d -name config -exec chown -R www-data {} \;
+chown www-data /var/www/html/horde/static
 exec apache2-foreground
