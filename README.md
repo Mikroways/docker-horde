@@ -40,6 +40,7 @@ containing Horde's modules configurations.
 * **IMP_MAILDOMAIN:**
 * **IMP_HORDEAUTH:**
 * **IMP_PROTOCOL:**
+* **IMP_MIME_DRIVERS_HTML_INLINE:**
 * **IMP_PORT:**
 * **IMP_SECURE:**
 * **INGO_IMAP_DISABLED:**
@@ -47,6 +48,7 @@ containing Horde's modules configurations.
 * **INGO_SIEVE_HOST:**
 * **INGO_SIEVE_USETLS:**
 * **INGO_SIEVE_UTF8:**
+* **TURBA_FAVOURITES_DISABLED:**
 
 ## TODO
 
