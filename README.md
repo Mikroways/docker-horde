@@ -36,6 +36,8 @@ containing Horde's modules configurations.
 * **HORDE_SQL_HOST:**
 * **HORDE_THEME:**
 * **HORDE_THEME_LOCKED:**
+* **HORDE_LANGUAGE:**
+* **HORDE_LANGUAGE_LOCKED:**
 * **IMP_HOSTSPEC:**
 * **IMP_MAILDOMAIN:**
 * **IMP_HORDEAUTH:**
