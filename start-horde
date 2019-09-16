@@ -19,7 +19,7 @@ cp /horde-templates/horde/registry.local.php /var/www/html/horde/config
 cp /horde-templates/imp/* /var/www/html/horde/imp/config
 cp /horde-templates/ingo/* /var/www/html/horde/ingo/config
 cp /horde-templates/turba/* /var/www/html/horde/turba/config
-webmail-migrateDb
+[ -e /var/www/html/horde/imp/config/conf.php ] || webmail-migrateDb
 find . -type d -name config -exec chown -R www-data {} \;
 chown www-data /var/www/html/horde/static
 exec apache2-foreground
