@@ -6,3 +6,11 @@ $servers['imap']['hordeauth'] = strcasecmp(isset($_ENV['IMP_HORDEAUTH'])?$_ENV['
 $servers['imap']['protocol'] = isset($_ENV['IMP_PROTOCOL'])? $_ENV['IMP_PROTOCOL']:'imap/notls';
 $servers['imap']['port'] = isset($_ENV['IMP_PORT'])? $_ENV['IMP_PORT']:143;
 $servers['imap']['secure'] = strcasecmp(isset($_ENV['IMP_SECURE'])?$_ENV['IMP_SECURE']:'true','true') == 0;
+$servers['imap']['quota'] = array(
+  'driver' => 'imap',
+  'params' => array(
+    'hide_when_unlimited' => true,
+    'unit' => 'MB'
+  )
+);
+
